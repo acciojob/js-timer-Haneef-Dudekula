@@ -5,9 +5,9 @@
 	const month = date.getMonth()+1; //months starts with 0 so we add 1
 	const year = date.getFullYear();
 
-	const hours = date.getHours().toString();
-	const mins = date.getMinutes().toString();
-	const secs = date.getSeconds().toString();
+	const hours = date.getHours()
+	const mins = date.getMinutes()
+	const secs = date.getSeconds()
 
 	const time = `${day}/${month}/${year}, ${hours}:${mins}:${secs}`;
 
